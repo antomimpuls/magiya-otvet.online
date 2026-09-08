@@ -11,10 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 <script>
 const SITE_SETTINGS = {
-  'phoneNumber': '+79034359423',
+  'phoneNumber': '+79612006179',
   'telegramEnabled': 1,
-  'telegramNickname': 'Elviramag781',
-  'psychicName': 'Ельвира',
+  'telegramNickname': 'Vselena2000000',
+  'psychicName': 'Оксана Юрьевна',
   'city': 'Москва',
   'address': '123112, г. Москва, Пресненская наб., д. 8, офис 1205',
   'enableRedirect': false,
@@ -28,7 +28,7 @@ const SITE_SETTINGS = {
   'responseTime': '3 минуты',
   'metrikaMessengerVisible': false
 };
-const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Ельвира';
+const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Оксана Юрьевна';
 const PHONE_DIGITS=(SITE_SETTINGS.phoneNumber||'').replace(/\D/g,'');
 const WHATSAPP_MESSAGE=PSYCHIC_NAME ? `Здравствуйте, ${PSYCHIC_NAME}! Хочу обратиться к вам за помощью.` : 'Здравствуйте, хочу обратиться к вам за помощью.';
 const ENCODED_MESSAGE=encodeURIComponent(WHATSAPP_MESSAGE);
@@ -1251,7 +1251,7 @@ function replaceNamePlaceholders(name){
 }
 
 function setImagesAndTexts(){
-    const psychicName = SETTINGS.psychicName || 'Ельвира';
+    const psychicName = SETTINGS.psychicName || 'Оксана Юрьевна';
     replaceNamePlaceholders(psychicName);
     const heroName = document.getElementById('heroName');
     if (heroName) {
